@@ -5,16 +5,16 @@ import BookList from '../components/BookList';
 export default function Bookstore() {
   const books = [{
     id: 1,
-    title: 'Mathematics is music',
-    author: 'James Joseph',
+    title: 'The Hunger Games',
+    author: 'Suzanne Collins',
   },
   {
     id: 2,
-    title: 'Music is Mathematics',
-    author: 'Joseph James ',
+    title: 'Dune',
+    author: 'Frank Herbert',
   }];
   return (
-    <div>
+    <div className="books-container">
       <BookList books={books} />
       <BookForm />
     </div>
