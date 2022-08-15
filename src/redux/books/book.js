@@ -1,10 +1,10 @@
-const ADD = 'ADD';
-const REMOVE = 'REMOVE';
+const ADD_BOOK = 'bookstore/books/ADD_BOOK';
+const REMOVE = 'bookstore/books/REMOVE';
 
 const booksReducer = (action, state = []) => {
   let booksArray;
   switch (action.type) {
-    case ADD:
+    case ADD_BOOK:
       booksArray = [...state, action.book];
       return booksArray;
     case REMOVE:
@@ -18,7 +18,7 @@ const booksReducer = (action, state = []) => {
 };
 
 export const addBook = (book) => ({
-  type: ADD,
+  type: ADD_BOOK,
   book,
 });
 

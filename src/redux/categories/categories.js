@@ -1,4 +1,4 @@
-const CHECK_STATUS = 'CHECK_STATUS';
+const CHECK_STATUS = 'bookstore/categories/CHECK_STATUS';
 
 const categoriesReducer = (action, state = '') => {
   switch (action.type) {
