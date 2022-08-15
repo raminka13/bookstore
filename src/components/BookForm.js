@@ -3,6 +3,7 @@ import React from 'react';
 export default function BookForm() {
   return (
     <form className="input-form">
+      <h2>ADD NEW BOOK</h2>
       <input
         type="text"
         className="input-title"
