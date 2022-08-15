@@ -1,17 +1,27 @@
 const ADD_BOOK = 'bookstore/books/ADD_BOOK';
 const REMOVE = 'bookstore/books/REMOVE';
 
-const booksReducer = (action, state = []) => {
+const defaultState = [
+  {
+    id: 1,
+    title: 'The Hunger Games',
+    author: 'Suzanne Collins',
+  },
+  {
+    id: 2,
+    title: 'Dune',
+    author: 'Frank Herbert',
+  },
+];
+
+const booksReducer = (action, state = defaultState) => {
   let booksArray;
   switch (action.type) {
     case ADD_BOOK:
       booksArray = [...state, action.book];
       return booksArray;
     case REMOVE:
-      return [
-        ...state.slice(0, action.index),
-        ...state.slice(action.index + 1, state.length),
-      ];
+      return state.filter((book) => book.id !== action.book.id);
     default:
       return state;
   }
@@ -22,9 +32,9 @@ export const addBook = (book) => ({
   book,
 });
 
-export const removeBook = (index) => ({
+export const removeBook = (book) => ({
   type: REMOVE,
-  index,
+  book,
 });
 
 export default booksReducer;
