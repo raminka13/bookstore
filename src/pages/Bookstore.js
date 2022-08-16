@@ -2,11 +2,13 @@ import React from 'react';
 import BookForm from '../components/BookForm';
 import BookList from '../components/BookList';
 
-export default function Bookstore() {
+function Books() {
   return (
-    <div className="books-container">
+    <div className="app-container">
       <BookList />
       <BookForm />
     </div>
   );
 }
+
+export default Books;
