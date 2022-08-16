@@ -1,17 +1,14 @@
-// Actions
-const CHECK_STATUS = 'CHECK_STATUS';
+const CHECK = 'CHECK';
 
-// Reducer
 export default function categoriesReducer(state = [], action = {}) {
   switch (action.type) {
-    case CHECK_STATUS:
+    case CHECK:
       return action.payload;
     default:
       return state;
   }
 }
 
-// Action Creators
 export function checkStatus() {
-  return { type: CHECK_STATUS, payload: 'Under construction' };
+  return { type: CHECK, payload: 'Under construction' };
 }

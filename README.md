@@ -34,8 +34,8 @@
 
 ## Project Milestones
 - **Milestone 1** Initialize project with components (React only). ✅
-- **Milestone 2** Add reducers and actions.
-- **Milestone 3** Use Redux in React components.
+- **Milestone 2** Add reducers and actions. ✅
+- **Milestone 3** Use Redux in React components. ✅
 - **Milestone 4** Connect to API.
 - **Milestone 5** Styling.
 
