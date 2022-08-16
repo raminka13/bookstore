@@ -24,3 +24,13 @@ body {
   justify-content: center;
   align-items: center;
 }
+
+.app-container {
+  padding: 1em;
+  max-width: 900px;
+  width: 80%;
+  background-color: white;
+  border: 2px solid white;
+  border-radius: 1em;
+  box-shadow: 1px 1px 9px #bcbcbc;
+}

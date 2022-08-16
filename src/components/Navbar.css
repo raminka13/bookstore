@@ -34,3 +34,7 @@ nav {
   font-size: 30px;
   width: 40%;
 }
+
+.active {
+  text-decoration: underline;
+}
