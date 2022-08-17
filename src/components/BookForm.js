@@ -1,12 +1,15 @@
 import { useState, React } from 'react';
 import { useDispatch } from 'react-redux';
 import { nanoid } from '@reduxjs/toolkit';
-import { createBook } from '../redux/books/book';
+import { addNewBookApi } from '../redux/books/book';
 
 function Form() {
   const [titleInput, setTitleInput] = useState('');
   const [authorInput, setAuthorInput] = useState('');
   const dispatch = useDispatch();
+  const id = nanoid();
+  const category = 'Fiction';
+
   return (
     <div className="form-container">
       <h3>Add new book</h3>
@@ -28,16 +31,23 @@ function Form() {
         <button
           onClick={(e) => {
             e.preventDefault();
-            if (titleInput === '' && authorInput === '') {
+            if (titleInput === '' || authorInput === '') {
               return;
             }
-            dispatch(createBook({ title: titleInput, author: authorInput, id: nanoid() }));
+            dispatch(
+              addNewBookApi({
+                title: titleInput,
+                author: authorInput,
+                id,
+                category,
+              }),
+            );
             setTitleInput('');
             setAuthorInput('');
           }}
           type="submit"
         >
-          Add New Book
+          Add Book
         </button>
       </form>
     </div>

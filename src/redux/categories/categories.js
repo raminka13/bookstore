@@ -1,4 +1,4 @@
-const CHECK = 'CHECK';
+const CHECK = 'bookstore/books/CHECK';
 
 export default function categoriesReducer(state = [], action = {}) {
   switch (action.type) {
