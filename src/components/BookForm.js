@@ -2,6 +2,7 @@ import { useState, React } from 'react';
 import { useDispatch } from 'react-redux';
 import { nanoid } from '@reduxjs/toolkit';
 import { addNewBookApi } from '../redux/books/book';
+import './BookForm.css';
 
 function Form() {
   const [titleInput, setTitleInput] = useState('');
@@ -13,8 +14,9 @@ function Form() {
   return (
     <div className="form-container">
       <h3>Add new book</h3>
-      <form>
+      <form id="form">
         <input
+          id="title-input"
           type="text"
           name="title"
           value={titleInput}
@@ -22,6 +24,7 @@ function Form() {
           onInput={(e) => setTitleInput(e.target.value)}
         />
         <input
+          id="author-input"
           type="text"
           name="author"
           value={authorInput}
@@ -29,6 +32,7 @@ function Form() {
           onInput={(e) => setAuthorInput(e.target.value)}
         />
         <button
+          id="add-button"
           onClick={(e) => {
             e.preventDefault();
             if (titleInput === '' || authorInput === '') {

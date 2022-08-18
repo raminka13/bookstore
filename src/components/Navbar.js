@@ -1,5 +1,6 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
+import { IoIosPerson } from 'react-icons/io';
 import './Navbar.css';
 
 function Navigation() {
@@ -7,7 +8,7 @@ function Navigation() {
     {
       id: 1,
       path: '/',
-      text: 'Bookstore',
+      text: 'Books',
     },
     {
       id: 2,
@@ -18,7 +19,7 @@ function Navigation() {
   return (
     <nav>
       <div className="navContainer">
-        <h3 className="logo">Bookstore</h3>
+        <h3 className="logo">Bookstore CMS</h3>
         <ul className="navLinks">
           {links.map((link) => (
             <li className="NavLink" key={link.id}>
@@ -28,6 +29,9 @@ function Navigation() {
             </li>
           ))}
         </ul>
+        <div className="profile-container">
+          <IoIosPerson className="profile-icon" />
+        </div>
       </div>
     </nav>
   );
