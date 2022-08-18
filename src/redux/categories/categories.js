@@ -10,5 +10,5 @@ export default function categoriesReducer(state = [], action = {}) {
 }
 
 export function checkStatus() {
-  return { type: CHECK, payload: 'Under construction' };
+  return { type: CHECK, payload: 'Under Construction' };
 }
