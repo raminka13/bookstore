@@ -8,9 +8,8 @@
 # Bookstore 📚
 > Bookstore is a web based app to keep track of your reading habits.
 
-<!-- ## Static Deploy
-- [Netlify](https://math-magicians-raminka.netlify.app/)
-- [Github Pages](https://raminka13.github.io/math-magicians/) -->
+## Static Deploy
+- [Github Pages](https://raminka13.github.io/bookstore)
 
 ## Tech ⌘⇧
 - **HTML & CSS best practices:** Correct use of tags, elements, properties and syntax.
@@ -36,8 +35,8 @@
 - **Milestone 1** Initialize project with components (React only). ✅
 - **Milestone 2** Add reducers and actions. ✅
 - **Milestone 3** Use Redux in React components. ✅
-- **Milestone 4** Connect to API.
-- **Milestone 5** Styling.
+- **Milestone 4** Connect to API. ✅
+- **Milestone 5** Styling. ✅
 
 
 ## 🤝 Contributing
