@@ -45,6 +45,7 @@
 }
 
 #add-button {
+  cursor: pointer;
   width: 20%;
   height: 100%;
   text-transform: uppercase;
@@ -58,3 +59,23 @@
   border: none;
   border-radius: 3px;
 }
+
+@media screen and (max-width: 650px) {
+  .form-container h3 {
+    padding-left: 1rem;
+    font-size: 1rem;
+  }
+
+  #form {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  #title-input,
+  #author-input {
+  padding-left: 0;
+  margin-bottom: 10px;
+  width: 90%;
+}
+}
+

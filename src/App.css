@@ -50,6 +50,7 @@ body {
   display: flex;
   flex-wrap: wrap;
   overflow-y: auto;
+  overflow-x: hidden;
 }
 
 .list-container ul {
@@ -103,4 +104,26 @@ body {
 
 .construction-icon {
   font-size: 4rem;
+}
+
+@media screen and (max-width: 650px) {
+  .app-container {
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+  }
+
+  .categories-container {
+    width: 100%;
+  }
+
+  .list-container {
+    justify-content: center;
+    margin-top: 1rem;
+    width: 95%;
+    height: 100%;
+  }
+  .list-container ul {
+    height: 100%;
+  }
 }

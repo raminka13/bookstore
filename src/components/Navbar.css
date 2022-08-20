@@ -10,6 +10,7 @@ nav {
   justify-content: center;
   align-items: center;
   border-bottom: 1px solid #e8e8e8;
+  z-index: 9;
 }
 
 .navContainer {
@@ -67,4 +68,33 @@ nav {
   width: 1.063rem;
   height: 1.063rem;
   color: #0290ff;
+}
+
+@media screen and (max-width: 650px) {
+  .navContainer {
+    width: 90%;
+  }
+
+  .navLinks {
+    flex: 5;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    text-align: center;
+  }
+
+  .NavLink {
+    margin: 0;
+    padding: 0;
+    font-size: 0.63rem;
+  }
+
+  .logo {
+    flex: 3;
+    font-size: 1rem;
+  }
+
+  .profile-container {
+    width: 1.8rem;
+    height: 1.8rem;
+  }
 }

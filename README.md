@@ -8,6 +8,8 @@
 # Bookstore 📚
 > Bookstore is a web based app to keep track of your reading habits.
 
+![](./ScreenShot.png)
+
 ## Static Deploy
 - [Github Pages](https://raminka13.github.io/bookstore)
 
