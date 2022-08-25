@@ -1,10 +1,11 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
+---
 
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+![Webpack](https://img.shields.io/badge/webpack-%238DD6F9.svg?style=for-the-badge&logo=webpack&logoColor=black) ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) ![Redux](https://img.shields.io/badge/redux-%23593d88.svg?style=for-the-badge&logo=redux&logoColor=white)
 
-
-
+---
 # Bookstore 📚
 > Bookstore is a web based app to keep track of your reading habits.
 
@@ -12,6 +13,7 @@
 
 ## Static Deploy
 - [Github Pages](https://raminka13.github.io/bookstore)
+- [Netlify](https://bookstore-raminka.netlify.app/)
 
 ## Tech ⌘⇧
 - **HTML & CSS best practices:** Correct use of tags, elements, properties and syntax.
@@ -19,6 +21,8 @@
 - **Webpack:**  Source development for production bundling.
 - **Linters Check:** Local and Pull Request Github workflows to check for stylistic errors, bugs and syntax errors in code.
 - **React:** Build on `React.js` framework with jsx.
+- **Redux:** Build on `Redux Toolkit` librarie to manage the app state.
+
 
 ## Clone Repository
 - Copy this code on your CLI to clone the repository `$ git clone https://github.com/raminka13/bookstore.git`
@@ -50,3 +54,7 @@ Feel free to check the [issues page](https://github.com/raminka13/math-magicians
 
 ## License 📝 
 - This project is [MIT](LICENSE) licensed.
+
+---
+
+![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white) ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white) ![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white) ![ESLint](https://img.shields.io/badge/ESLint-4B3263?style=for-the-badge&logo=eslint&logoColor=white)

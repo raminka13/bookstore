@@ -19,6 +19,7 @@ function Form() {
           id="title-input"
           type="text"
           name="title"
+          maxLength={18}
           value={titleInput}
           placeholder="Book Title"
           onInput={(e) => setTitleInput(e.target.value)}
@@ -27,6 +28,7 @@ function Form() {
           id="author-input"
           type="text"
           name="author"
+          maxLength={18}
           value={authorInput}
           placeholder="Author Title"
           onInput={(e) => setAuthorInput(e.target.value)}

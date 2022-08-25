@@ -73,9 +73,8 @@
 
   #title-input,
   #author-input {
-  padding-left: 0;
-  margin-bottom: 10px;
-  width: 90%;
+    padding-left: 0;
+    margin-bottom: 10px;
+    width: 90%;
+  }
 }
-}
-
